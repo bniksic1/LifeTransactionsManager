@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="fragments.BudgetFragment">
+
+
+
+    <EditText
+        android:id="@+id/budget"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="100dp"
+        android:ems="10"
+        android:gravity="bottom|center"
+        android:inputType="textPersonName"
+        android:text="3417 BAM"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/monthL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="224dp"
+        android:text="Personal budget:"
+        app:layout_constraintBottom_toTopOf="@+id/budget"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/monthL"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="100dp"
+        android:ems="10"
+        android:gravity="bottom|center"
+        android:inputType="textPersonName"
+        android:text="1000 BAM"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/totalL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="255dp"
+        android:text="Month limit:"
+        app:layout_constraintBottom_toTopOf="@+id/monthL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/budget" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="264dp"
+        android:text="Total limit:"
+        app:layout_constraintBottom_toTopOf="@+id/totalL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/monthL" />
+
+    <EditText
+        android:id="@+id/totalL"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="100dp"
+        android:ems="10"
+        android:gravity="bottom|center"
+        android:inputType="textPersonName"
+        android:text="500 BAM"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="75dp"
+        android:src="@drawable/accounticon"
+        app:layout_constraintBottom_toTopOf="@+id/budget"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
