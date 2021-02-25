@@ -13,9 +13,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![](presentation1.jpg)
-![](presentation2.jpg)
-![](presentation3.jpg)
+![](pres1.jpg)
+![](pres2.jpg)
+![](pres3.jpg)
 
 Project made from 0 for faculty exam as part of course Mobile Application Development.
 
