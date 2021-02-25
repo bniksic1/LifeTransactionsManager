@@ -32,3 +32,4 @@ By sliding we are switching fragment layouts from pictures. On last picture we c
 This section is list of languages and frameworks that project uses:
 * [Java]()
 * [Android]()
+* [SQLite]()
